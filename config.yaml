@@ -1,6 +1,6 @@
 # exampleSite/config.yaml
-baseURL: https://Crafeeee.github.io/ # Replace with your domain
-languageCode: en-us,zh-cn
+baseURL: https://swleeeeee.github.io/Crafeeee.github.io/ # Replace with your domain
+languageCode: en-us
 theme: smigle
 themesDir: themes # Only needed for running the example site
 title: Crafeeee's 
