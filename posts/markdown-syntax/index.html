@@ -9,7 +9,7 @@
   />
   
     
-      <title>Markdown Syntax Guide | Crafeeee&#39;s</title>
+      <title>Markdown Syntax Guide &amp; Math Typesetting | Crafeeee&#39;s</title>
     
   
   <link rel="stylesheet" href="/Crafeeee/css/reset.css"/>
@@ -55,6 +55,9 @@
          | 
         <a href="/Crafeeee/categories/"><b>Categories</b></a>
       
+         | 
+        <a href="/Crafeeee/tags/"><b>Tags</b></a>
+      
     
   </nav>
   <hr />
@@ -64,7 +67,7 @@
         
   <main>
     <article>
-      <h1 class="title">Markdown Syntax Guide</h1>
+      <h1 class="title">Markdown Syntax Guide &amp; Math Typesetting</h1>
       <h3 class="subtitle">A more convenient way writing HTML</h3>
       <div class="post-meta">
   <strong>
@@ -74,20 +77,20 @@
     
       <a href="/categories/syntax">syntax</a>
   </strong>
-  <span> • 444 words</span>
+  <span> • 563 words</span>
   
   
     <div>
       <span>Tags:</span>
       
         <a href="/tags/markdown">markdown</a>, 
-        <a href="/tags/css">css</a>, 
         <a href="/tags/html">html</a>
     </div>
   
 </div>
 
-      <div class="content"><p>This article offers a sample of basic Markdown syntax that can be used in Hugo content files, also it shows whether basic HTML elements are decorated with CSS in a Hugo theme.</p>
+      <div class="content"><h1 id="markdown-syntax-guide">Markdown Syntax Guide</h1>
+<p>This article offers a sample of basic Markdown syntax that can be used in Hugo content files, also it shows whether basic HTML elements are decorated with CSS in a Hugo theme.</p>
 <h2 id="headings">Headings</h2>
 <p>The following HTML <code>&lt;h1&gt;</code>—<code>&lt;h6&gt;</code> elements represent six levels of section headings. <code>&lt;h1&gt;</code> is the highest section level while <code>&lt;h6&gt;</code> is the lowest.</p>
 <h1 id="h1">H1</h1>
@@ -218,6 +221,30 @@
 <p>X<!-- raw HTML omitted -->n<!-- raw HTML omitted --> + Y<!-- raw HTML omitted -->n<!-- raw HTML omitted --> = Z<!-- raw HTML omitted -->n<!-- raw HTML omitted --></p>
 <p>Press <!-- raw HTML omitted --><!-- raw HTML omitted -->CTRL<!-- raw HTML omitted -->+<!-- raw HTML omitted -->ALT<!-- raw HTML omitted -->+<!-- raw HTML omitted -->Delete<!-- raw HTML omitted --><!-- raw HTML omitted --> to end the session.</p>
 <p>Most <!-- raw HTML omitted -->salamanders<!-- raw HTML omitted --> are nocturnal, and hunt for insects, worms, and other small creatures.</p>
+<h1 id="math-typesetting">Math Typesetting</h1>
+<p>Mathematical notation in a Hugo project can be enabled by using third party JavaScript libraries.</p>
+<!-- raw HTML omitted -->
+<p>In this example we will be using <a href="https://katex.org/">KaTeX</a></p>
+<ul>
+<li>Create a partial under <code>/layouts/partials/math.html</code></li>
+<li>Within this partial reference the <a href="https://katex.org/docs/autorender.html">Auto-render Extension</a> or host these scripts locally.</li>
+<li>Include the partial in your templates like so:</li>
+</ul>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span><span style="color:#f92672">{{</span> <span style="color:#66d9ef">if</span> or .Params.math .Site.Params.math <span style="color:#f92672">}}</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">{{</span> partial <span style="color:#e6db74">&#34;math.html&#34;</span> . <span style="color:#f92672">}}</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">{{</span> end <span style="color:#f92672">}}</span>
+</span></span></code></pre></div><ul>
+<li>To enable KaTex globally set the parameter <code>math</code> to <code>true</code> in a project&rsquo;s configuration</li>
+<li>To enable KaTex on a per page basis include the parameter <code>math: true</code> in content files</li>
+</ul>
+<p><strong>Note:</strong> Use the online reference of <a href="https://katex.org/docs/supported.html">Supported TeX Functions</a></p>
+
+<h3 id="examples">Examples</h3>
+
+<p>Block math:
+$$
+\varphi = 1+\frac{1} {1+\frac{1} {1+\frac{1} {1+\cdots} } }
+$$</p>
 <div class="footnotes" role="doc-endnotes">
 <hr>
 <ol>

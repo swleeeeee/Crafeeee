@@ -5,14 +5,56 @@
     <link>https://swleeeeee.github.io/Crafeeee/tags/</link>
     <description>Recent content in Tags on Crafeeee&#39;s</description>
     <generator>Hugo</generator>
-    <language>en-us</language>
-    <lastBuildDate>Wed, 18 Aug 2021 00:00:00 +0000</lastBuildDate>
+    <language>en-us,zh-cn</language>
+    <lastBuildDate>Fri, 01 Nov 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://swleeeeee.github.io/Crafeeee/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Css</title>
-      <link>https://swleeeeee.github.io/Crafeeee/tags/css/</link>
-      <pubDate>Fri, 15 Jan 2021 00:00:00 +0000</pubDate>
-      <guid>https://swleeeeee.github.io/Crafeeee/tags/css/</guid>
+      <title>Abaqus</title>
+      <link>https://swleeeeee.github.io/Crafeeee/tags/abaqus/</link>
+      <pubDate>Fri, 01 Nov 2024 00:00:00 +0000</pubDate>
+      <guid>https://swleeeeee.github.io/Crafeeee/tags/abaqus/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Python</title>
+      <link>https://swleeeeee.github.io/Crafeeee/tags/python/</link>
+      <pubDate>Fri, 01 Nov 2024 00:00:00 +0000</pubDate>
+      <guid>https://swleeeeee.github.io/Crafeeee/tags/python/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Secondary Development</title>
+      <link>https://swleeeeee.github.io/Crafeeee/tags/secondary-development/</link>
+      <pubDate>Fri, 01 Nov 2024 00:00:00 +0000</pubDate>
+      <guid>https://swleeeeee.github.io/Crafeeee/tags/secondary-development/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Hypermesh</title>
+      <link>https://swleeeeee.github.io/Crafeeee/tags/hypermesh/</link>
+      <pubDate>Tue, 15 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>https://swleeeeee.github.io/Crafeeee/tags/hypermesh/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Magics</title>
+      <link>https://swleeeeee.github.io/Crafeeee/tags/magics/</link>
+      <pubDate>Tue, 15 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>https://swleeeeee.github.io/Crafeeee/tags/magics/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Meshing</title>
+      <link>https://swleeeeee.github.io/Crafeeee/tags/meshing/</link>
+      <pubDate>Tue, 15 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>https://swleeeeee.github.io/Crafeeee/tags/meshing/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Pre-Processing</title>
+      <link>https://swleeeeee.github.io/Crafeeee/tags/pre-processing/</link>
+      <pubDate>Tue, 15 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>https://swleeeeee.github.io/Crafeeee/tags/pre-processing/</guid>
       <description></description>
     </item>
     <item>
@@ -27,20 +69,6 @@
       <link>https://swleeeeee.github.io/Crafeeee/tags/markdown/</link>
       <pubDate>Fri, 15 Jan 2021 00:00:00 +0000</pubDate>
       <guid>https://swleeeeee.github.io/Crafeeee/tags/markdown/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Emoji</title>
-      <link>https://swleeeeee.github.io/Crafeeee/tags/emoji/</link>
-      <pubDate>Wed, 13 Jan 2021 00:00:00 +0000</pubDate>
-      <guid>https://swleeeeee.github.io/Crafeeee/tags/emoji/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Text</title>
-      <link>https://swleeeeee.github.io/Crafeeee/tags/text/</link>
-      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
-      <guid>https://swleeeeee.github.io/Crafeeee/tags/text/</guid>
       <description></description>
     </item>
   </channel>
