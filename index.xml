@@ -6,8 +6,15 @@
     <description>Recent content on Crafeeee&#39;s</description>
     <generator>Hugo</generator>
     <language>en-us,zh-cn</language>
-    <lastBuildDate>Mon, 04 Nov 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 07 Nov 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://swleeeeee.github.io/Crafeeee/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>TPMS periodic single-cell integration simulation</title>
+      <link>https://swleeeeee.github.io/Crafeeee/posts/11-7/</link>
+      <pubDate>Thu, 07 Nov 2024 00:00:00 +0000</pubDate>
+      <guid>https://swleeeeee.github.io/Crafeeee/posts/11-7/</guid>
+      <description>&lt;h1 id=&#34;1模型生成mathematica&#34;&gt;1.模型生成(mathematica)&lt;/h1&gt;&#xA;&lt;p&gt;模型方程参考&lt;a href=&#34;https://mp.weixin.qq.com/s/J1FIr99urkgp4c92-9rIRA&#34;&gt;https://mp.weixin.qq.com/s/J1FIr99urkgp4c92-9rIRA&lt;/a&gt;&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Gyroid&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;方程：sin(x) cos(y) + sin(y) cos(z) + sin(z) cos(x)&#xA;2. Schwarz (Primitive)&lt;/p&gt;&#xA;&lt;p&gt;方程：cos(x)+cos(y)+cos(z)&#xA;3. Diamond&lt;/p&gt;&#xA;&lt;p&gt;方程：sin(x)*sin(y)*sin(z)+sin(x)*cos(y)*cos(z)+cos(x)*sin(y)*cos(z)+cos(x)*cos(y)*sin(z)&#xA;4. Lidinoid&lt;/p&gt;&#xA;&lt;p&gt;方程：sin(2&lt;em&gt;x) * cos(y) * sin(z) + sin(2&lt;/em&gt;y) * cos(z) * sin(x) + sin(2&lt;em&gt;z) * cos(x) * sin(y) - cos(2&lt;/em&gt;x) * cos(2&lt;em&gt;y) - cos(2&lt;/em&gt;y) * cos(2&lt;em&gt;z) - cos(2&lt;/em&gt;z) * cos(2*x) + 0.3&#xA;5. Split P&lt;/p&gt;&#xA;&lt;p&gt;方程：1.1*(sin(2&lt;em&gt;x)&lt;em&gt;sin(z)&lt;em&gt;cos(y)+sin(2&lt;/em&gt;y)&lt;em&gt;sin(x)&lt;em&gt;cos(z)+sin(2&lt;/em&gt;z)&lt;em&gt;sin(y)&lt;em&gt;cos(x))&#xA;-0.2&lt;/em&gt;(cos(2&lt;/em&gt;x)&lt;em&gt;cos(2&lt;/em&gt;y)+cos(2&lt;/em&gt;y)&lt;em&gt;cos(2&lt;/em&gt;z)+cos(2&lt;/em&gt;z)&lt;em&gt;cos(2&lt;/em&gt;x))-0.4&lt;/em&gt;(cos(2&lt;em&gt;x) + cos(2&lt;/em&gt;y) +cos(2*z))&#xA;6. Neovius&lt;/p&gt;&#xA;&lt;p&gt;方程：3*(cos(x)+cos(y)+cos(z))+4*cos(x)*cos(y)*cos(z)&#xA;7. IWP&lt;/p&gt;&#xA;&lt;p&gt;方程：2 (Cos[Pi/10 x] Cos[Pi/10 y] + Cos[Pi/10 y] Cos[Pi/10 z] + Cos[Pi/10 z] Cos[Pi/10 x]) - (Cos[Pi/5 x] + Cos[Pi/5 y] +Cos[Pi/5 z])&#xA;8. Gyroid&lt;/p&gt;</description>
+    </item>
     <item>
       <title>My original intention for building a BLOG</title>
       <link>https://swleeeeee.github.io/Crafeeee/posts/10-4/</link>
@@ -42,13 +49,6 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://swleeeeee.github.io/Crafeeee/about/</guid>
       <description>&lt;p&gt;&lt;strong&gt;EDUCATION&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;Bechelor:ZJNU    Intellegent Manufacturing&lt;/p&gt;&#xA;&lt;p&gt;Master:CQU       Additive Manufacturing&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Research Experience&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Skills&lt;/strong&gt;&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>TPMS periodic single-cell integration simulation</title>
-      <link>https://swleeeeee.github.io/Crafeeee/posts/11-7/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://swleeeeee.github.io/Crafeeee/posts/11-7/</guid>
-      <description>&lt;p&gt;&lt;em&gt;1.模型生成(mathematica)&lt;/em&gt;&#xA;模型方程参考&lt;a href=&#34;https://mp.weixin.qq.com/s/J1FIr99urkgp4c92-9rIRA&#34;&gt;https://mp.weixin.qq.com/s/J1FIr99urkgp4c92-9rIRA&lt;/a&gt;&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Gyroid&#xA;方程：sin(x) cos(y) + sin(y) cos(z) + sin(z) cos(x)&lt;/li&gt;&#xA;&lt;li&gt;Schwarz (Primitive)&#xA;方程：cos(x)+cos(y)+cos(z)&lt;/li&gt;&#xA;&lt;li&gt;Diamond&#xA;方程：sin(x)*sin(y)*sin(z)+sin(x)*cos(y)*cos(z)+cos(x)*sin(y)*cos(z)+cos(x)*cos(y)*sin(z)&lt;/li&gt;&#xA;&lt;li&gt;Lidinoid&#xA;方程：sin(2&lt;em&gt;x) * cos(y) * sin(z) + sin(2&lt;/em&gt;y) * cos(z) * sin(x) + sin(2&lt;em&gt;z) * cos(x) * sin(y) - cos(2&lt;/em&gt;x) * cos(2&lt;em&gt;y) - cos(2&lt;/em&gt;y) * cos(2&lt;em&gt;z) - cos(2&lt;/em&gt;z) * cos(2*x) + 0.3&lt;/li&gt;&#xA;&lt;li&gt;Split P&#xA;方程：1.1*(sin(2&lt;em&gt;x)&lt;em&gt;sin(z)&lt;em&gt;cos(y)+sin(2&lt;/em&gt;y)&lt;em&gt;sin(x)&lt;em&gt;cos(z)+sin(2&lt;/em&gt;z)&lt;em&gt;sin(y)&lt;em&gt;cos(x))-0.2&lt;/em&gt;(cos(2&lt;/em&gt;x)&lt;em&gt;cos(2&lt;/em&gt;y)+cos(2&lt;/em&gt;y)&lt;em&gt;cos(2&lt;/em&gt;z)+cos(2&lt;/em&gt;z)&lt;em&gt;cos(2&lt;/em&gt;x))-0.4&lt;/em&gt;(cos(2&lt;em&gt;x) + cos(2&lt;/em&gt;y) +cos(2*z))&lt;/li&gt;&#xA;&lt;li&gt;Neovius&#xA;方程：3*(cos(x)+cos(y)+cos(z))+4*cos(x)*cos(y)*cos(z)&lt;/li&gt;&#xA;&lt;li&gt;IWP&#xA;方程：2 (Cos[Pi/10 x] Cos[Pi/10 y] + Cos[Pi/10 y] Cos[Pi/10 z] + Cos[Pi/10 z] Cos[Pi/10 x]) - (Cos[Pi/5 x] + Cos[Pi/5 y] +Cos[Pi/5 z])&lt;/li&gt;&#xA;&lt;li&gt;Gyroid&#xA;方程：Sin[Pi/10 x] Cos[Pi/10 y] + Sin[Pi/10 y] Cos[Pi/10 z] + Sin[Pi/10 z] Cos[Pi/10 x]&lt;/li&gt;&#xA;&lt;li&gt;FRD&#xA;方程：4cos (x) cos (y) cos (z)-[cos (x) cos (2y)+ cos (2x) cos (2z)+ cos (2y) cos (2z)]&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;这里以Dimond模型为例子展示实现方法：&#xA;Shell type:&#xA;&lt;img src=&#34;../pic/11-7-1.jpg&#34; alt=&#34;&#34;&gt;&#xA;Solid type:&#xA;&lt;img src=&#34;../pic/11-7-2.jpg&#34; alt=&#34;&#34;&gt;&#xA;Sandwich type:&#xA;&lt;img src=&#34;../pic/11-7-3.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

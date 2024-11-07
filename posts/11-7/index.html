@@ -72,12 +72,12 @@
       <div class="post-meta">
   <strong>
     <span>Posted on</span>
-    <time>0001-01-01</time>
+    <time>2024-11-07</time>
     <span>in</span>
     
       <a href="/categories/fea">FEA</a>
   </strong>
-  <span> • 473 words</span>
+  <span> • 482 words</span>
   
   
     <div>
@@ -91,45 +91,51 @@
   
 </div>
 
-      <div class="content"><p><em>1.模型生成(mathematica)</em>
-模型方程参考<a href="https://mp.weixin.qq.com/s/J1FIr99urkgp4c92-9rIRA">https://mp.weixin.qq.com/s/J1FIr99urkgp4c92-9rIRA</a></p>
+      <div class="content"><h1 id="1模型生成mathematica">1.模型生成(mathematica)</h1>
+<p>模型方程参考<a href="https://mp.weixin.qq.com/s/J1FIr99urkgp4c92-9rIRA">https://mp.weixin.qq.com/s/J1FIr99urkgp4c92-9rIRA</a></p>
 <ol>
-<li>Gyroid
-方程：sin(x) cos(y) + sin(y) cos(z) + sin(z) cos(x)</li>
-<li>Schwarz (Primitive)
-方程：cos(x)+cos(y)+cos(z)</li>
-<li>Diamond
-方程：sin(x)*sin(y)*sin(z)+sin(x)*cos(y)*cos(z)+cos(x)*sin(y)*cos(z)+cos(x)*cos(y)*sin(z)</li>
-<li>Lidinoid
-方程：sin(2<em>x) * cos(y) * sin(z) + sin(2</em>y) * cos(z) * sin(x) + sin(2<em>z) * cos(x) * sin(y) - cos(2</em>x) * cos(2<em>y) - cos(2</em>y) * cos(2<em>z) - cos(2</em>z) * cos(2*x) + 0.3</li>
-<li>Split P
-方程：1.1*(sin(2<em>x)<em>sin(z)<em>cos(y)+sin(2</em>y)<em>sin(x)<em>cos(z)+sin(2</em>z)<em>sin(y)<em>cos(x))-0.2</em>(cos(2</em>x)<em>cos(2</em>y)+cos(2</em>y)<em>cos(2</em>z)+cos(2</em>z)<em>cos(2</em>x))-0.4</em>(cos(2<em>x) + cos(2</em>y) +cos(2*z))</li>
-<li>Neovius
-方程：3*(cos(x)+cos(y)+cos(z))+4*cos(x)*cos(y)*cos(z)</li>
-<li>IWP
-方程：2 (Cos[Pi/10 x] Cos[Pi/10 y] + Cos[Pi/10 y] Cos[Pi/10 z] + Cos[Pi/10 z] Cos[Pi/10 x]) - (Cos[Pi/5 x] + Cos[Pi/5 y] +Cos[Pi/5 z])</li>
-<li>Gyroid
-方程：Sin[Pi/10 x] Cos[Pi/10 y] + Sin[Pi/10 y] Cos[Pi/10 z] + Sin[Pi/10 z] Cos[Pi/10 x]</li>
-<li>FRD
-方程：4cos (x) cos (y) cos (z)-[cos (x) cos (2y)+ cos (2x) cos (2z)+ cos (2y) cos (2z)]</li>
+<li>Gyroid</li>
 </ol>
-<p>这里以Dimond模型为例子展示实现方法：
-Shell type:
-<img src="../pic/11-7-1.jpg" alt="">
+<p>方程：sin(x) cos(y) + sin(y) cos(z) + sin(z) cos(x)
+2. Schwarz (Primitive)</p>
+<p>方程：cos(x)+cos(y)+cos(z)
+3. Diamond</p>
+<p>方程：sin(x)*sin(y)*sin(z)+sin(x)*cos(y)*cos(z)+cos(x)*sin(y)*cos(z)+cos(x)*cos(y)*sin(z)
+4. Lidinoid</p>
+<p>方程：sin(2<em>x) * cos(y) * sin(z) + sin(2</em>y) * cos(z) * sin(x) + sin(2<em>z) * cos(x) * sin(y) - cos(2</em>x) * cos(2<em>y) - cos(2</em>y) * cos(2<em>z) - cos(2</em>z) * cos(2*x) + 0.3
+5. Split P</p>
+<p>方程：1.1*(sin(2<em>x)<em>sin(z)<em>cos(y)+sin(2</em>y)<em>sin(x)<em>cos(z)+sin(2</em>z)<em>sin(y)<em>cos(x))
+-0.2</em>(cos(2</em>x)<em>cos(2</em>y)+cos(2</em>y)<em>cos(2</em>z)+cos(2</em>z)<em>cos(2</em>x))-0.4</em>(cos(2<em>x) + cos(2</em>y) +cos(2*z))
+6. Neovius</p>
+<p>方程：3*(cos(x)+cos(y)+cos(z))+4*cos(x)*cos(y)*cos(z)
+7. IWP</p>
+<p>方程：2 (Cos[Pi/10 x] Cos[Pi/10 y] + Cos[Pi/10 y] Cos[Pi/10 z] + Cos[Pi/10 z] Cos[Pi/10 x]) - (Cos[Pi/5 x] + Cos[Pi/5 y] +Cos[Pi/5 z])
+8. Gyroid</p>
+<p>方程：Sin[Pi/10 x] Cos[Pi/10 y] + Sin[Pi/10 y] Cos[Pi/10 z] + Sin[Pi/10 z] Cos[Pi/10 x]
+9. FRD</p>
+<p>方程：4cos (x) cos (y) cos (z)-[cos (x) cos (2y)+ cos (2x) cos (2z)+ cos (2y) cos (2z)]</p>
+<p>这里以Dimond模型为例子展示实现方法：</p>
+<p>Shell type:
+<img src="../pic/11-7-1.png" alt="">
 Solid type:
-<img src="../pic/11-7-2.jpg" alt="">
+<img src="../pic/11-7-2.png" alt="">
 Sandwich type:
-<img src="../pic/11-7-3.jpg" alt=""></p>
-<p><em>2.网格划分(Magics（opt）hypermesh)</em>
-具体方法见上条blog
+<img src="../pic/11-7-3.png" alt=""></p>
+<h1 id="2网格划分magicsopthypermesh">2.网格划分(Magics（opt）hypermesh)</h1>
+<p>具体方法见上条blog
 使用hypermesh进行网格划分，其中未完全清晰的部分：
 hypermesh中的网格高质量自动化重新划分工具（如同magics一样）、hypermesh当中的网格划分后能显示边线上的节点数量保持在视图当中的方法、进阶的二次开发自动化的方法</p>
-<p><em>3.PBC仿真自动化及二次开发（Abaqus&amp;python）</em>
-主要方法：首先示教一遍具体的操作步骤，注意操作的适用性，主要包含导入模型、施加材料属性、创建实例、生成inp文件等；使用abaqus.rpy或 abaqus.rec文件中记录的宏操作，新建py文件，加入所需的库，加入串联语句运行PBC节点匹配脚本；自动合并三个文件（.inp, .dat, .txt）,其中txt是预先设置的load、steps等，这里其实也可以在第一步示教加上。
+<h1 id="3pbc仿真自动化及二次开发abaquspython">3.PBC仿真自动化及二次开发（Abaqus&amp;python）</h1>
+<p>主要方法：首先示教一遍具体的操作步骤，注意操作的适用性，主要包含导入模型、施加材料属性、创建实例、生成inp文件等；使用abaqus.rpy或 abaqus.rec文件中记录的宏操作，新建py文件，加入所需的库，加入串联语句运行PBC节点匹配脚本；自动合并三个文件（.inp, .dat, .txt）,其中txt是预先设置的load、steps等，这里其实也可以在第一步示教加上。
 最后可以实现，对同种网格类型的模型进行一次示教，就可以自动创建材料、自动施加边界条件、自动提交运算，一步到位！</p>
-<p>在最前面加上：
-<code>from abaqus import * from math import * from abaqusConstants import * import string import os import math</code></p>
-<p>注意write input操作和run script操作如果没有被.rpy记录，可以使用以下语句唤起下一个脚本（即PBC节点匹配），此方法能很好地进行脚本的串联运行：</p>
+<p>在最前面加上：</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#f92672">from</span> abaqus <span style="color:#f92672">import</span> <span style="color:#f92672">*</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">from</span> math <span style="color:#f92672">import</span> <span style="color:#f92672">*</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">from</span> abaqusConstants <span style="color:#f92672">import</span> <span style="color:#f92672">*</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">import</span> string
+</span></span><span style="display:flex;"><span><span style="color:#f92672">import</span> os
+</span></span><span style="display:flex;"><span><span style="color:#f92672">import</span> math
+</span></span></code></pre></div><p>注意write input操作和run script操作如果没有被.rpy记录，可以使用以下语句唤起下一个脚本（即PBC节点匹配），此方法能很好地进行脚本的串联运行：</p>
 <p>mdb.jobs[job_name].writeInput(consistencyChecking=OFF)
 execfile(PBC_FILE_dir, <strong>main</strong>.<strong>dict</strong>)</p>
 <p>完全代码如下，注意文件间的变量传递，可以将所需的变量（文件路径、文件名）放在第一个脚本下统一输入;文件路径可以使用绝对路径，也可以使用相对路径，将所要操作的文件放在同一个目录下就很方便。</p>
